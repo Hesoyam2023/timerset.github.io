@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Cafe Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <label for="startTime">Enter starting time (HH:mm):</label>
+        <input type="text" id="startTime" placeholder="HH:mm" required>
+
+        <label for="amPm">AM or PM:</label>
+        <input type="text" id="amPm" placeholder="AM/PM" required>
+
+        <label for="amountPaid">Enter amount paid (PHP):</label>
+        <input type="text" id="amountPaid" placeholder="Amount paid" required>
+
+        <button id="calculateButton">Calculate</button>
+
+        <div id="resultArea"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
